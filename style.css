@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', 'Source Han Sans JP Regular', 'KFhimaji';
+  font-family: 'Roboto', 'Source Han Sans JP Regular', 'KFhimaji', 'Helvetica Rounded';
 }
 
 html,
@@ -43,7 +43,7 @@ body {
 
 #description {
   color: #fff;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Roboto';
   font-size: 12pt;
   display: inline-block;
   text-transform: lowercase;
@@ -51,7 +51,7 @@ body {
 
 #temp_curr {
   color: #fff;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Roboto';
   font-size: 12pt;
   display: inline-block;
   padding-left: 2px;
@@ -99,7 +99,7 @@ input:focus {
 #message {
   color: #fff;
   font-size: 56pt;
-  font-family: 'KFhimaji';
+  font-family: 'Roboto';
   font-weight: bold;
   height: 50px;
   width: 50%;
@@ -125,7 +125,7 @@ input:focus {
   height: 100%;
   background: #1e272b;
   transition: all 0.3s ease-in-out;
-  transform: translateX(calc(-120%));
+  /* transform: translateX(calc(-120%)); */
 }
 
 #border {
@@ -152,7 +152,7 @@ input:focus {
 
 .box a {
   color: #fff;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Roboto';
   font-size: 13pt;
   line-height: 30px;
   text-align: right;
@@ -167,7 +167,7 @@ input:focus {
 
 .box h1 {
   color: #fff;
-  font-family: 'Helvetica Rounded', 'KFhimaji';
+  font-family: 'Roboto';
   text-align: right;
 }
 
@@ -176,7 +176,7 @@ input:focus {
   background: transparent;
   border: none;
   color: #000;
-  font-family: 'Helvetica Rounded';
+  font-family: 'Roboto';
 }
 
 .button:hover {
